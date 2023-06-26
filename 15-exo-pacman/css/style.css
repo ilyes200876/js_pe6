@@ -1,0 +1,21 @@
+/* #pacman{
+  width:100px;
+  height:100px;
+  background:yellow;
+  border-radius:50%;
+  position:absolute;
+  top:0;
+  left:0;
+} */
+body{
+  background: url(../image/back.png) black no-repeat;
+  background-size: cover;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+  position:absolute;
+  transition: left 500ms, top 500ms;
+  /* transform: scaleX(1) rotate(-90deg); */
+}

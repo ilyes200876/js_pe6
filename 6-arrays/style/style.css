@@ -1,0 +1,51 @@
+.bloc{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+.descriptionVoiture {
+  display: flex;
+  background-color: grey;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 2rem;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+  padding-bottom:10px ;
+}
+
+h1{
+  font-weight: 900;
+  font-size: large;
+}
+
+.totalPrice{
+  font-weight: 900;
+  text-align: center;
+}
+
+/* 
+
+V3
+body{
+  display:flex;
+  background:lightgray;
+  flex-wrap: wrap;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.voiture{
+  background:white;
+  width:200px;
+  height:150px;
+  border-radius:15px;
+  margin:10px;
+  padding:10px;
+}
+
+h1{
+  width:100%;
+} */

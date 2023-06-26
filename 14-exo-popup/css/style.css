@@ -1,0 +1,83 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.popupbackground{
+  visibility: hidden;
+  background: black;
+  opacity: 0.75;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position:absolute;
+  margin: 0;
+}
+
+.popupbackground.show{
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s; 
+}
+
+.popup{
+  visibility: hidden;
+  border:1px solid;
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+  width:80%;
+}
+
+.popup.show{
+ visibility: visible;
+ -webkit-animation: fadeIn 1s;
+ animation: fadeIn 1s;
+}
+
+
+/* @-webkit-keyframes fadeIn {
+ from {opacity: 0;}
+ to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+ from {opacity: 0;}
+ to {opacity:1 ;}
+} */
+
+
+.popup h1{
+ background:red;
+ margin:0;
+ padding:10px;
+ color:white;
+}
+
+.popup p{
+ background-color: white;
+ padding:10px;
+ margin:0;
+}
+
+.popup .close{
+ position: absolute;
+ right:10px;
+ top:10px;
+ font-size:1.4em;
+ color:white;
+ cursor: pointer;
+}
+
+/* boutons */
+
+a{
+ text-decoration: none;
+ background-color: rosybrown;
+ color:white;
+ padding:10px;
+ display: inline-block;
+}
+
+

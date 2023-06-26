@@ -1,0 +1,51 @@
+html,body{
+  height:100%;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height:100%;
+  margin:0;
+}
+
+#boule{
+  height: 500px;
+  width: 500px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input{
+  width: 300px;
+  height: 50px;
+  border: solid 5px gray;
+  border-radius: 10%;
+}
+
+input.show{
+  width: 300px;
+  height: 200px;
+  border: solid 5px purple;
+  border-bottom-right-radius: 70%;
+  border-top-right-radius: 70%;
+  background-color: blue;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+}
+
+h1{
+  color: red;
+  font-size: medium;
+  text-align: center;
+}
+
+
